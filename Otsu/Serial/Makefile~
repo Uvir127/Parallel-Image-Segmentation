@@ -1,0 +1,7 @@
+all: serial
+
+serial: serial.cu
+	nvcc -Iinc/ -o serial serial.cu
+
+clean:
+	rm serial

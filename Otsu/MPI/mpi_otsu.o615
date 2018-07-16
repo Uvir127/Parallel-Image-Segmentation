@@ -1,0 +1,30 @@
+------------------------------------------------------
+Job is running on node host215-04-08.ms.wits.ac.za
+host215-04-08.ms.wits.ac.za
+host215-04-08.ms.wits.ac.za
+host215-04-07.ms.wits.ac.za
+host215-04-07.ms.wits.ac.za
+host215-04-07.ms.wits.ac.za
+host215-04-06.ms.wits.ac.za
+host215-04-06.ms.wits.ac.za
+------------------------------------------------------
+PBS: qsub is running on host216-01-01.ms.wits.ac.za
+PBS: originating queue is batch
+PBS: executing queue is batch
+PBS: working directory is /home-216/ubhagirathi/Otsu
+PBS: execution mode is PBS_BATCH
+PBS: job identifier is 615.host216-01-01.ms.wits.ac.za
+PBS: job name is mpi_Otsu
+PBS: node file is /var/spool/torque/aux//615.host216-01-01.ms.wits.ac.za
+PBS: current home directory is /home-216/ubhagirathi
+PBS: PATH = /usr/local/cuda-8.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+------------------------------------------------------
+nvcc -I/usr/lib/openmpi/include -Iinc/ -L/usr/lib/openmpi/lib -lmpi -O3 mpi_Otsu.cu -o mpi_Otsu 
+Rank : 1, Processing Time : 1.122952, Overhead : 0.371218
+Rank : 2, Processing Time : 1.129150, Overhead : 0.174284
+Rank : 3, Processing Time : 1.132727, Overhead : 0.367165
+Rank : 4, Processing Time : 1.150131, Overhead : 0.377178
+Rank : 5, Processing Time : 1.140833, Overhead : 0.371218
+Rank : 6, Processing Time : 1.173258, Overhead : 0.380993
+Rank : 7, Processing Time : 1.143932, Overhead : 0.353098
+Rank : 0, Processing Time : 3.708363, Overhead : 0.085831

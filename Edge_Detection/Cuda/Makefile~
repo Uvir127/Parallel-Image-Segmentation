@@ -1,0 +1,7 @@
+all: texture
+
+texture: texture.cu
+	nvcc -Iinc/ -o texture texture.cu
+
+clean:
+	rm texture

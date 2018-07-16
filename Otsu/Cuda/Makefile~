@@ -1,0 +1,7 @@
+all: cuda
+
+serial: cuda_Otsu.cu
+	nvcc -Iinc/ -o cuda_Otsu cuda_Otsu.cu
+
+clean:
+	rm cuda_Otsu

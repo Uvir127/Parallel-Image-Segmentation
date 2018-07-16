@@ -1,0 +1,7 @@
+all: mpi
+
+serial: mpi.cu
+	nvcc -Iinc/ -o mpi mpi.cu
+
+clean:
+	rm serial
