@@ -18,7 +18,7 @@ To change the image, the image must be in the data folder.
 The image name must be changed in the edge_detection file.
 When changing the filter, change the filter size as well.
 
------------------K-Means------------------------
+-------------------K-Means----------------------
 Any RGB image can be used.
 To change the image, the image must be in the data folder.
 The image name must be changed in the k_means file.
